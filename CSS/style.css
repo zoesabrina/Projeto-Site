@@ -91,7 +91,7 @@ body{
 #header a{
     text-decoration: none;
     font-family: "Lato", sans-serif;
-    font-size: 1.vw;
+    font-size: 1.5vw;
     font-weight: 500;
 }
 
@@ -116,7 +116,7 @@ body{
     margin-left: 40%;
     margin-right: 0;
     transform: translate(-50%, -50%);
-    font-size: 5vw;
+    font-size: 6vw;
     display: flex;
     position: absolute;
     color: white;
@@ -159,7 +159,7 @@ body{
     margin-left: 100px;
     color:#EC5B00;
     font-family: "Lato", sans-serif;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 .line{
     margin:20px 50px 20px 50px;
@@ -169,7 +169,7 @@ body{
     cursor: pointer;
     color:#2D815D;
     font-family: 'Alegreya';
-    font-size: 2.5vw;
+    font-size: 4vw;
     font-weight: 100;
     text-align: justify;
     padding-right: 17%;
@@ -178,7 +178,7 @@ body{
 #content p{
     color:black;
     font-family: 'Alegreya';
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: 100;
     text-align: justify;
     padding-right: 17%;
@@ -193,11 +193,11 @@ body{
     border: solid 1px;
     List-style-type: none;
     font-family: "Lato";
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: 250;
     margin-top: 30px;
     margin-right: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -214,7 +214,7 @@ body{
     border: none;
     border-radius: 25px;
     padding: 5px;
-    margin-top: 120px;
+    margin-top: 100px;
     margin-left: 25%;
     display: flex;
     justify-content: center;
@@ -232,7 +232,7 @@ body{
 }
 #box-sobre p{
     text-align: justify;
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 15px 10px 15px 10px;
 }
 .bt-vermais{
@@ -242,7 +242,7 @@ body{
     border: none;
     List-style-type: none;
     font-family: "Lato";
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: 250;
     margin: 15px 15px 15px 15px;
     cursor: pointer;
@@ -296,14 +296,14 @@ body{
 
 .img-artigo img{
     width: 100%;
-    height: 250px;
+    height: 30vh;
     box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
     display: block;
 }
 
 .img-artigo h3{
     position: absolute;
-    top: 8%;
+    top: 9%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 5.3vw;
@@ -341,12 +341,12 @@ body{
 /* CSS do arquivo sobre.html */
 
 .sobre{
-    margin: 200px;
+    margin: 40px;
 }
 .sobre p{
     color:black;
     font-family: 'Alegreya';
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: 100;
     text-align: justify;
 }
@@ -475,7 +475,7 @@ input[type="submit"]:hover{
 
 
 .artigo{
-    margin: 10rem;
+    margin: 30px;
     text-align: justify;
 }
 
@@ -552,6 +552,10 @@ input[type="submit"]:hover{
         font-size: 25px;
     }
 
+    #header a{
+        font-size: 4vw;
+    }
+
     /*content-container*/
 
     .img-home {
@@ -566,7 +570,7 @@ input[type="submit"]:hover{
 
     .img-home h1{
         position: absolute;
-        top: 20%;
+        top: 30%;
         font-size: 5vw;
     }
  
@@ -596,13 +600,14 @@ input[type="submit"]:hover{
 
     .artigo1 h2, .artigo2 h2 {
         width: 70%;
-        font-size: 1.8em;
+        font-size: 3em;
     }
 
     .artigo1 p, .artigo2 p {
         width: 70%;
         font-size: 1.6em;
     }
+
 
     #content {
         margin: 20px 20px;
@@ -626,6 +631,7 @@ input[type="submit"]:hover{
     }
 
     .bt-lermais {
+        margin-bottom: 0;
         float: right;
     }
 
@@ -634,6 +640,9 @@ input[type="submit"]:hover{
         clear:both;
         width: 80%;
         margin: 40px auto;
+    }
+    .sobre{
+        font-size: 5.0vw;
     }
 
     .box_valores, .box_missão {
@@ -664,6 +673,25 @@ input[type="submit"]:hover{
     /*artigo.html*/
     .img-artigo h3{
         top: 20%;
+        font-size: 5.3vw;
+    }
+
+    .img-artigo img{
+        width: 100%;
+    }
+
+    /*pag_artigo1.html e 2*/
+    .artigo p{
+        font-size: 4vw;
+    }
+    
+    .artigo h2{
+        font-size: 6vw;
+    }
+    
+    .artigo img{
+        width: 100%;
+        margin-top: 60px;
     }
 
     /*Contato*/
@@ -731,7 +759,7 @@ input[type="submit"]:hover{
     }
     
     .box-contato h1 {
-        font-size: 2.80em;
+        font-size: 2.0em;
     }
 
     .bt-inscrever input[type="email"], .bt-inscrever input[type="submit"] {
@@ -772,30 +800,35 @@ input[type="submit"]:hover{
         float: none;
     }
 
+    .sobre{
+        font-size: 5.0vw;
+    }
+
     /*artigo*/
     .artigo_1, .artigo_2 {
         width: 100%;
         float: none;
         margin-bottom: 30px;
         margin-top: 30px;
-        font-size: 5vw;
     }
     
     .artigo_1 img, .artigo_2 img {
         float: none;
         margin: 0 auto;
         display: block;
-        width: 100%;
+        width: 75%;
         max-width: 500px;
         height: auto;
     }
     
     .img-artigo h3{
         top: 10%;
+        font-size: 5.3vw;
     }
     #artigo-1 h2, #artigo-2 h2, #artigo-1 p, #artigo-2 p {
         text-align: center;
         padding: 0 20px;
+        font-size: 4.5vw;
     }
 }
 
@@ -803,11 +836,16 @@ input[type="submit"]:hover{
     
     .img-home h1{
         position: absolute;
-        top: 15%;
+        top: 30%;
         font-size: 5vw;
     }
     .img-artigo h3{
         top: 15%;
+        font-size: 5.3vw;
     }
+    .sobre{
+        font-size: 5.0vw;
+    }
+
     
 }
