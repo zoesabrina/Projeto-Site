@@ -277,7 +277,7 @@ body{
     margin-right: 10px;
     margin-left: 30px;
 }
-.escrio p {
+.escrito p {
     font-size: 2vw;
     color: #2D815D;
 }
@@ -614,7 +614,7 @@ input[type="submit"]:hover{
     }
 
     #content h1 {
-        font-size: 2em;
+        font-size: 1.8em;
         text-align: initial;
     }
 
@@ -635,18 +635,13 @@ input[type="submit"]:hover{
         float: right;
     }
 
-    /*sobre*/
-    #box-sobre {
-        clear:both;
-        width: 80%;
-        margin: 40px auto;
-    }
+    /*sobre.html*/
     .sobre{
         font-size: 5.0vw;
     }
-
+    
     .box_valores, .box_missão {
-        width: 100%;
+        width: 93%;
         margin: 50px 0;
         float: none;
     }
@@ -659,16 +654,20 @@ input[type="submit"]:hover{
         left: 0;
         width: 100%;
         margin-top: 100px;
-        padding-bottom: 2.5rem; 
+        padding-bottom: 1rem; 
     }
-    .escrio {
-        padding:0px;
-        margin:0px;
+    .logo-footer img{
+        margin:0;
+        padding:0;
+    }
+    .escrito p{
+        padding: 0px;
+        font-size: 3vw;
     }
     #redes{
-        padding:0px;
-        margin:0px;
-
+        padding: 0px;
+        margin: 3px;
+        font-size: 5vw;
     }
     /*artigo.html*/
     .img-artigo h3{
@@ -791,18 +790,9 @@ input[type="submit"]:hover{
         clear:both;
         width: 70%;
         margin: 40px auto;
+        padding: 3px;
     }
 
-    /*sobre*/
-    .box_valores, .box_missão {
-        width: 93%;
-        margin: 50px 0;
-        float: none;
-    }
-
-    .sobre{
-        font-size: 5.0vw;
-    }
 
     /*artigo*/
     .artigo_1, .artigo_2 {
@@ -833,10 +823,12 @@ input[type="submit"]:hover{
 }
 
 @media screen and (max-width: 636px){
-    
+    .img-home img{
+        height: 50vh;
+    }
     .img-home h1{
         position: absolute;
-        top: 30%;
+        top: 25%;
         font-size: 5vw;
     }
     .img-artigo h3{
@@ -846,6 +838,4 @@ input[type="submit"]:hover{
     .sobre{
         font-size: 5.0vw;
     }
-
-    
 }
