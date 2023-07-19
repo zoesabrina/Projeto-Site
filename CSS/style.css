@@ -839,8 +839,38 @@ input[type="submit"]:hover{
     .sobre{
         font-size: 5.0vw;
     }
-    #content-contato{
-        width:100%;
+
+    #content-contato {
+        width: 100%;
+        margin-top: 0;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: -200px;
     }
     
+    .box-contato {
+        width: 70%;
+        padding: 40px;
+        margin: 10% auto;
+        text-align: center;
+    }
+    
+    .box-contato h1 {
+        font-size: 1.5em;
+    }
+
+    .bt-inscrever input[type="email"], .bt-inscrever input[type="submit"] {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+        font-size: 3vw;
+    }
+    
+    .redes img {
+        width: 45px;
+        margin-bottom: 100px;
+    }
+
 }
