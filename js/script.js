@@ -11,11 +11,11 @@ function redirecionarArtigo(url) {
 }
 
 function redirecionarParaArtigo() {
-    window.location.href = "artigo.html";
+    window.location.href = "html/artigo.html";
 }
 
 function redirecionarParaSobre() {
-    window.location.href = "sobre.html";
+    window.location.href = "html/sobre.html";
 }
 
 //contato
