@@ -849,10 +849,6 @@ input[type="submit"]:hover{
     .sobre{
         margin: 60px;
     }
-    .box_valores, .box_missão{
-        align-items: center;
-        width: 80%;
-    }
     .sobre p{
         font-size: 2vw;
     }
