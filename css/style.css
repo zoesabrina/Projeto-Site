@@ -803,8 +803,8 @@ input[type="submit"]:hover{
     }
     
     /*artigo*/
-
     .artigo_1, .artigo_2 {
+        width: 100%;
         float: none;
         margin-bottom: 30px;
         margin-top: 30px;
@@ -849,6 +849,10 @@ input[type="submit"]:hover{
     .sobre{
         margin: 60px;
     }
+    .box_valores, .box_missão{
+        align-items: center;
+        width: 45%;
+    }
     .sobre p{
         font-size: 2vw;
     }
@@ -877,11 +881,11 @@ input[type="submit"]:hover{
 
     /*artigo.html*/
     #artigo-1 h2, #artigo-2 h2{
-        margin: 35px 50px 5px 50px;
+        margin: 35px 15px 5px 15px;
         font-size: 3.9vw;
     }
     #artigo-1 p, #artigo-2 p {
-        margin: 35px 50px 50px 50px;
+        margin: 35px 15px 35px 15px;
         font-size: 2.9vw;
     }
 
@@ -941,5 +945,21 @@ input[type="submit"]:hover{
 
     #content p {
         font-size:  0.95em;
+    }
+
+    /*sobre*/
+    .sobre{
+        margin: 30px;
+    }
+
+    .box_valores, .box_missão{
+        width: 80%;
+    }
+
+    .sobre p{
+        font-size: 4.5vw;
+    }
+    .sobre h1{
+        font-size: 6.5vw;
     }
 }
